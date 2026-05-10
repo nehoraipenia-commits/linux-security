@@ -13,6 +13,8 @@ Here are the steps to install and launch the app on your machine.
 
 1. **Clone the project**
    ```bash
+   sudo apt update && sudo apt install python3-psutil
+   sudo apt update && sudo apt install ufw
    git clone https://github.com/nehoraipenia-commits/linux-security.git
    cd linux-security
    python3 security.py
